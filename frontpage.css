@@ -203,10 +203,17 @@
       font-size: 1.5rem;
     }
   }
-  .form-container {
+.form-container {
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
+    background: #f6fafd;
+    border-radius: 8px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .form-group {
@@ -216,26 +223,41 @@
   }
 
   label {
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-bottom: 6px;
+    font-weight: 600;
   }
 
   input, textarea {
-    padding: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 1em;
   }
 
   button {
-    padding: 10px 20px;
+    width: 100%;
+    padding: 12px;
     font-size: 1em;
-    background-color: #007b5e;
+    background-color: #005b8f;
     color: white;
     border: none;
+    border-radius: 6px;
     cursor: pointer;
   }
 
   button:hover {
-    background-color: #005b45;
+    background-color: #00436b;
+  }
+
+  /* Optional: Mobile responsiveness */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+
+    button {
+      font-size: 0.95em;
+    }
   }
 
   /*about us section*/
