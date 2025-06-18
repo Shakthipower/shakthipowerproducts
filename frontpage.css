@@ -42,6 +42,24 @@
   text-transform: uppercase;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-heading {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tick-icon {
+  height: 24px;
+  width: 24px;
+}
+
 .slogan {
   font-size: 1.1rem;
   font-style: italic;
