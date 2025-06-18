@@ -203,59 +203,40 @@
       font-size: 1.5rem;
     }
   }
-  .lead-form {
-  background-color: #f2f2f2;
-  padding: 40px 20px;
-}
+  .form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
 
-.form-container {
-  max-width: 600px;
-  margin: auto;
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.form-container h2 {
-  margin-bottom: 20px;
-  text-align: center;
-  color: #008060;
-}
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
 
-.form-container form {
-  display: flex;
-  flex-direction: column;
-}
+  input, textarea {
+    padding: 8px;
+    font-size: 1em;
+  }
 
-.form-container label {
-  margin-top: 15px;
-  font-weight: bold;
-}
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
 
-.form-container input,
-.form-container select,
-.form-container textarea {
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form-container button {
-  margin-top: 25px;
-  padding: 12px;
-  background-color: #008060;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.form-container button:hover {
-  background-color: #006347;
-}
+  button:hover {
+    background-color: #005b45;
+  }
 
   /*about us section*/
   nav ul li a.active {
